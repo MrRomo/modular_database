@@ -8,7 +8,7 @@ const database = require('./modular_database')
 ``` 
 ##### in MongoDB case
 ``` js
-const db = new database.mongo_db({ MONGO_URI: 'mongodb://<admin>:<user>@<host>:<port>/<database>' })
+const mongo = new database.mongo_db({ MONGO_URI: 'mongodb://<admin>:<user>@<host>:<port>/<database>' })
 ```
 
 ## Methods 
