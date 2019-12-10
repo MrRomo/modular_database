@@ -1,8 +1,7 @@
 # Modular Database
  A modular database for add database service for any project
 
-- Import the module for database choised an instance with URI
-
+- Import the module and instantiate an object with the database choised
 ``` js
 const database = require('./modular_database')
 ``` 
@@ -12,7 +11,9 @@ const mongo = new database.mongo_db({ MONGO_URI: 'mongodb://<admin>:<user>@<host
 ```
 
 ## Methods 
-All modules methods, are async functions, the "data" param, is a buffer array from the image to you want upload.
+All modules methods, are async functions, the params query are javascript objects with the filters of query for mongo db. 
+Read de docs
+https://mongoosejs.com/docs/queries.html
 
 ``` js
 async mongo.create(query,Schema)
