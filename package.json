@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MrRomo/modular_database/issues"
   },
-  "homepage": "https://github.com/MrRomo/modular_database#readme"
+  "homepage": "https://github.com/MrRomo/modular_database#readme",
+  "dependencies": {
+    "mongoose": "^5.8.0"
+  }
 }
