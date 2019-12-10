@@ -1,0 +1,19 @@
+{
+  "name": "modular_database",
+  "version": "1.0.0",
+  "description": " A modular database for add database service for any project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrRomo/modular_database.git"
+  },
+  "author": "Ricardo Romo",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MrRomo/modular_database/issues"
+  },
+  "homepage": "https://github.com/MrRomo/modular_database#readme"
+}
