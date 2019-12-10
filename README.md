@@ -27,4 +27,4 @@ Until now, the module only manage MongoDB database's, but in the future works wi
 | MongoDB | PostgreSQL | MySQL | Firebase |
 | ------------- | ------------- | ------------- | ------------- |
 | ![MongoDB](https://miro.medium.com/max/3512/1*Ce0gUe0LbnhL7ebnDGTp5w.png)  | ![PostgreSQL](https://ubunlog.com/wp-content/uploads/2018/07/postgresql.jpeg)  | ![MySQL](https://www.anerbarrena.com/wp-content/uploads/2016/05/mysql.jpg) | ![Firebase](https://miro.medium.com/max/3200/1*ipwpqQrHz0Lkd_5setXQCQ.png) |
-|+ Supported |- Not Suported |- Not Suported |- Not Suported |
+| +Supported | -Not Suported | -Not Suported |-Not Suported |
