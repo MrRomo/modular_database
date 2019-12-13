@@ -5,12 +5,12 @@
 ``` js
 const database = require('./modular_database')
 ``` 
-##### in MongoDB case
+## MongoDB case
 ``` js
 const mongo = new database.mongo_db({ MONGO_URI: 'mongodb://<admin>:<user>@<host>:<port>/<database>' })
 ```
 
-## Methods 
+### Methods 
 All modules methods, are async functions, the params query are javascript objects with the filters of query for mongo db. 
 Read de docs
 https://mongoosejs.com/docs/queries.html
@@ -21,7 +21,7 @@ async mongo.get(query,Schema,{sort,limit})
 async mongo.update({query,options,array},Schema)
 async mongo.delete(query,Schema)
 ``` 
-
+## Project State
 Until now, the module only manage MongoDB database's, but in the future works with MySQL, Postgresql and Firebase Firestore.
 
 | MongoDB | PostgreSQL | MySQL | Firebase |
