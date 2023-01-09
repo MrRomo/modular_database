@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/MrRomo/modular_database#readme",
   "dependencies": {
-    "firebase-admin": "^8.8.0",
+    "firebase-admin": "^11.4.1",
     "mongoose": "^5.8.0"
   }
 }
